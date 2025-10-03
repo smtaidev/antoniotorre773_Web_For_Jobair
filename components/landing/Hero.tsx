@@ -4,11 +4,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="pt-32 sm:pt-36 md:pt-40 xl:pt-44 min-h-screen bg-gradient-to-br from-brand-dark to-brand-darker">
+    <div className="pt-28 pb-8 sm:pt-36 md:pt-40 xl:pt-44 min-h-screen bg-gradient-to-br from-brand-dark to-brand-darker">
       <div className="app-container flex flex-col md:flex-row items-center gap-10 lg:gap-16 xl:gap-20">
         {/* Left Part (60%) */}
         <div className="w-full md:w-3/5 flex flex-col items-center md:items-start text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[80px] font-bold leading-tight md:leading-tight mb-5 sm:mb-6 md:mb-6 text-center md:text-left">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight md:leading-tight mb-5 sm:mb-6 md:mb-6 text-center md:text-left">
             Learn English with AI.
             <span className="block text-gradient-minor italic mt-0.5">
               Guided, Fun, and
